@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 500px;
+    background-color: rgb(236, 234, 234);
+    box-shadow: 3px 3px 7px rgb(93, 92, 92);
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    height: 50px;
+    color: rgb(74, 125, 244);
+    text-align: center;
+    color: Red;
+}
+
+.todo-add {
+    display: flex;
+    justify-content: center;
+}
+
+.header p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.todo-add input {
+    width: 390px;
+    font-size: 16px;
+    border: solid 1px rgb(162, 163, 163);
+    outline: none;
+    border-radius: 2px 0 0 2px;
+    padding: 5px;
+}
+
+.todo-add button {
+    width: 50px;
+    border: solid 1px rgb(251, 67, 67);
+    background-color: white;
+    color: rgb(251, 67, 67);
+    font-size: 16px;
+    border-radius: 0 2px 2px 0;
+    padding: 5px;
+}
+
+.todo-add button:hover {
+    background-color: rgb(251, 67, 67);
+    color: white;
+}
+
+.todo-add input:hover {
+    border-color: rgb(251, 67, 67);
+}
+
+.todo-list ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.todo-list {
+    margin-top: 25px;
+}
+
+.todo-list p {
+    color: rgb(253, 61, 61);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.todo-list ul li span {
+    width: 30px;
+    color: red;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.todo-list ul li p {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.todo-list ul li {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(164, 164, 164);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-list ul li button {
+    border: solid 1px rgb(251, 67, 67);
+    background-color: white;
+    color: rgb(251, 67, 67);
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+.todo-list ul li button:hover {
+    background-color: rgb(251, 67, 67);
+    color: white;
+}
